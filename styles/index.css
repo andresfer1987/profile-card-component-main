@@ -1,0 +1,86 @@
+body {
+    height: 120vh;  
+    background: hsl(185, 75%, 39%);  
+    background-image:url('../images/bg-pattern-bottom.svg');
+    background-repeat: repeat-y;
+    font-family: 'Kumbh Sans', sans-serif;    
+    font-size: 18px;
+}
+.card {
+    background: darkcyan;
+    max-width: 400px;    
+    height: 280px;
+    border-radius: 15px;
+    margin: 0 auto;
+    position: relative;
+    top:11em;
+
+}
+
+.card__header {
+    background-image: url('../images/bg-pattern-card.svg');
+    height: 11rem;
+    border-radius: 15px 15px 0 0;
+}
+
+.card__container {
+    background: #fff;
+    max-height: 100%;
+    border-radius: 0 0 15px 15px;
+}
+
+.card__image {
+    margin: 0 auto;
+    width: 100px;
+    height: 77px;
+}
+.card__image img {
+    border-radius: 50px;
+    object-fit: cover;
+    border: 5px solid #fff;
+    position: relative;
+    top: -46px;
+}
+
+.card__profile-data {
+    display: flex;
+    justify-content:center;
+}
+
+.card__profile-name {
+    font-weight: 700;
+    margin-right: 0.6rem;
+    margin-bottom: 1.2rem;
+}
+
+.card__profile-city {
+    text-align: center;
+    color: gray;
+    margin-bottom: 2rem ;
+}
+
+.card__profile-divider {
+    border-top: 1px solid #d9d9d9;
+}
+
+.card__social ul {
+    list-style: none;
+    margin:0;
+    padding: 0;
+    border: 0;
+}
+
+.card__social{
+    display: flex;
+    justify-content: space-around;
+    padding: 1.4em 0;
+}
+
+.card__social ul li:first-child {
+    font-weight: 700;
+}
+
+.card__social ul li:nth-child(2) {
+    font-weight: 400;
+    font-size: 0.9rem;
+}
