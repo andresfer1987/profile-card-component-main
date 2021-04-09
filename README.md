@@ -1,3 +1,7 @@
+# Result
+
+![image](https://user-images.githubusercontent.com/17006625/114198100-8f74e680-9918-11eb-92dd-afb144a59882.png)
+
 # Frontend Mentor - Profile card component
 
 ![Design preview for the Profile card component coding challenge](./design/desktop-preview.jpg)
