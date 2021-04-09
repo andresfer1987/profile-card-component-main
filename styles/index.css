@@ -1,20 +1,26 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
-    height: 120vh;  
+    height: 100vh;  
     background: hsl(185, 75%, 39%);  
     background-image:url('../images/bg-pattern-bottom.svg');
     background-repeat: repeat-y;
     font-family: 'Kumbh Sans', sans-serif;    
     font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .card {
     background: darkcyan;
-    max-width: 400px;    
-    height: 280px;
+    width: 80%;
+    min-width: 320px;    
+    max-width: 400px;
     border-radius: 15px;
-    margin: 0 auto;
-    position: relative;
-    top:11em;
-
 }
 
 .card__header {
@@ -65,9 +71,6 @@ body {
 
 .card__social ul {
     list-style: none;
-    margin:0;
-    padding: 0;
-    border: 0;
 }
 
 .card__social{
